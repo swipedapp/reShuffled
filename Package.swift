@@ -3,20 +3,20 @@
 
 import PackageDescription
 
-let package = Package(
-  name: "Shuffle",
+let package: Package = Package(
+  name: "reShuffled",
   platforms: [
     .iOS(.v9)
   ],
   products: [
     .library(
-      name: "Shuffle",
-      targets: ["Shuffle"])
+      name: "reShuffled",
+      targets: ["reShuffled"])
   ],
   dependencies: [],
   targets: [
     .target(
-      name: "Shuffle",
+      name: "reShuffled",
       dependencies: [])
   ]
 )
